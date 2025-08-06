@@ -1,4 +1,4 @@
-This is a lightweight Windows Port-based honeypot that can listen on all ports from 1-65535 both TCP and UDP.
+This is a lightweight Windows Port-based honeypot that can listen on all ports from 1-65535 both TCP and UDP (it doesn't appear to work on port 0).
 
 The file HoneyBOT_018.exe is a Windows installer, and runs on most modern versions of Microsoft Windows.
 
